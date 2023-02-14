@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:listinha/src/shared/themes/color_schemes.g.dart';
+import 'package:listinha/src/shared/themes/themes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
-      darkTheme: ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,
+      theme: lightTheme,
+      darkTheme: dartTheme,
+      home: const MyHomePage(title: 'Listinha'),
     );
   }
 }
