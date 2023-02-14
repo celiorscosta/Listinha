@@ -5,8 +5,6 @@ Estudo retirado da semana do Flutter no canal do Flutterando.
 
 Aplicativo para criar várias listas para serem usadas simultaneamente e sincronizadas na nuvem após os dados serem salvos localmente (**Offline-first**).
 
-![image](app.png)
-
 # 1. Funcionalidades
 
 1. Autenticação o mais simples possível.
