@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "0c80aeab9bc807ab10022cd3b2f4cf2ecdf231949dc1ddd9442406a003f19201"
+      sha256: "569ddca58d535e601dd1584afa117710abc999d036c0cd2c51777fb257df78e8"
       url: "https://pub.dev"
     source: hosted
-    version: "52.0.0"
+    version: "53.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: cd8ee83568a77f3ae6b913a36093a1c9b1264e7cb7f834d9ddd2311dade9c1f4
+      sha256: "10927c4b7c7c88b1adbca278c3d5531db92e2f4b4abf04e2919a800af965f3f5"
       url: "https://pub.dev"
     source: hosted
-    version: "5.4.0"
+    version: "5.5.0"
   args:
     dependency: transitive
     description:
@@ -487,26 +487,26 @@ packages:
     dependency: "direct main"
     description:
       name: realm
-      sha256: c725fde43a61c4e1c9ad1309609ec9256b21af72e3db935e83d20c01491aa435
+      sha256: f33413ec87dc62d626544548e275aefe38a7a117da2ee70977c1a2b5516e5734
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   realm_common:
     dependency: transitive
     description:
       name: realm_common
-      sha256: c7531a76ec25a695f9a247529c330075c6cdf9bde6f1cb06e9abb685fed280a9
+      sha256: "7b0d85ceddf95f3e7e41822b460744152ee8e64da8e873aef4a45b36cb6740fb"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   realm_generator:
     dependency: transitive
     description:
       name: realm_generator
-      sha256: d2843037b35e8d108cdbb7f1c33b790f6a1ac00e77a10400b67ad405e767a36b
+      sha256: "46e3f96a0bc1399f82542c0221b1ac8785c0376519c34701ad7bf2db221314a1"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   result_dart:
     dependency: "direct main"
     description:
@@ -692,10 +692,10 @@ packages:
     dependency: "direct main"
     description:
       name: uno
-      sha256: ec4960e1610bb234a5019952412061d51b2f4912c6a1c67ab9ba84ded3b355b9
+      sha256: "7d25197911c8ca06eaf2705df0f5dafc4211092bac9cf844dbc44a33ef1757ef"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1+5"
+    version: "1.1.0"
   vector_math:
     dependency: transitive
     description:
