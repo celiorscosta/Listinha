@@ -12,6 +12,7 @@ ThemeData get lightTheme => ThemeData(
         backgroundColor: _lightColorScheme.primary,
         foregroundColor: Colors.white,
       ),
+      segmentedButtonTheme: _segmentedButtonTheme,
     );
 
 ThemeData get dartTheme => ThemeData(
@@ -20,5 +21,21 @@ ThemeData get dartTheme => ThemeData(
       appBarTheme: AppBarTheme(
         centerTitle: true,
         backgroundColor: _lightColorScheme.primaryContainer,
+      ),
+      segmentedButtonTheme: _segmentedButtonTheme,
+    );
+
+SegmentedButtonThemeData get _segmentedButtonTheme => SegmentedButtonThemeData(
+      style: ButtonStyle(
+        textStyle: MaterialStateProperty.resolveWith<TextStyle>((states) {
+          if (states.contains(MaterialState.selected)) {
+            return const TextStyle(
+              fontSize: 9,
+            );
+          }
+          return const TextStyle(
+            fontSize: 12,
+          );
+        }),
       ),
     );
