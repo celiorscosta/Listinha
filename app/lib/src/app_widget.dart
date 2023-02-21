@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:listinha/src/configuration/configuration_page.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 
-import 'home/home_page.dart';
 import 'shared/themes/themes.dart';
 
 class AppWidget extends StatelessWidget {
@@ -9,16 +8,14 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: lightTheme,
       darkTheme: dartTheme,
-      routes: {
-        '/': (context) => const HomePage(),
-        '/config': (context) => const ConfigurationPage(),
-      },
+      routerDelegate: Modular.routerDelegate,
+      routeInformationParser: Modular.routeInformationParser,
     );
   }
 }
