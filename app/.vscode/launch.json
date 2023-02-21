@@ -8,12 +8,6 @@
       "name": "app",
       "request": "launch",
       "type": "dart"
-    },
-    {
-      "name": "app (release mode)",
-      "request": "launch",
-      "type": "dart",
-      "flutterMode": "release"
     }
   ]
 }
