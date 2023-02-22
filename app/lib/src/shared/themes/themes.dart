@@ -20,7 +20,7 @@ ThemeData get dartTheme => ThemeData(
       colorScheme: _darkColorScheme,
       appBarTheme: AppBarTheme(
         centerTitle: true,
-        backgroundColor: _lightColorScheme.primaryContainer,
+        backgroundColor: _darkColorScheme.primaryContainer,
       ),
       segmentedButtonTheme: _segmentedButtonTheme,
     );

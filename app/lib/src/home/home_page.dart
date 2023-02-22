@@ -16,9 +16,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       drawer: const CustomDrawer(),
       appBar: AppBar(
-        title: const Text(
-          'LISTINHA',
-        ),
+        title: const Text('LISTINHA'),
         actions: const [
           Padding(
             padding: EdgeInsets.only(right: 8),
